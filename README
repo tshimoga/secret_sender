@@ -1,0 +1,27 @@
+
+Author
+-------------------------------------------------
+Name: Tarun Shimoga
+ASU ID: tshimoga
+ASU #: 1208478709
+
+
+Description
+------------------------------------------------
+
+This is python script that takes the following input through command line
+1. destination ip address
+2. interface
+3. Transport Layer protocol (0:ICMP; 1:TCP; 2:UDP)
+4. message
+
+
+It depends on scapy package to modify header values and send packets.
+The secret message is encoded in the high byte of the identifier of the IP 
+packet with the sequencing information going in the fragment offset.
+
+Execution
+-----------------------------------------------
+To execute the program, just run ./secret_sender
+
+
